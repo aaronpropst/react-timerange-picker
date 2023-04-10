@@ -55,7 +55,7 @@ type TimeRangePickerProps = {
   autoFocus?: boolean;
   className?: ClassName;
   clearAriaLabel?: string;
-  clearIcon?: IconOrRenderFunction;
+  clearIcon?: IconOrRenderFunction | null;
   clockAriaLabel?: string;
   clockClassName?: ClassName;
   clockIcon?: IconOrRenderFunction;
